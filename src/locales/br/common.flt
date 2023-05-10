@@ -1,0 +1,98 @@
+lang-name = Português (Brasil)
+
+title = O Projeto Quilt
+short-title = QuiltMC
+description = O Mod-loader que se importa.
+
+title-formatted = {$shortTitle} | {$title}
+serial-comma = {$prev}, {$next}
+
+# Common strings
+-developer-wiki = Wiki dos desenvolvedores
+-forum = Fórum
+-import-utility = Utilitário de Importação do Quilt
+-help-wanted = Procura-se Ajuda
+-patch-notes = Patch Notes
+-sponsors = Patrocinadores
+-staff-resources = Recursos da Equipe
+-template-mod = Mod Template
+
+# Brand names/proper nouns - You shouldn't need to edit this.
+-mastodon = Mastodon
+-github = GitHub
+-discord = Discord
+-twitter = Twitter
+-twitch = Twitch
+
+page-authors =
+	{ $count ->
+        [one] Autor
+        *[other] Autores
+	}: {$names}
+page-edited = Editada: {DATETIME($date, month: "long", year: "numeric", day: "numeric")}
+post-date = {DATETIME($date, month: "long", year: "numeric", day: "numeric")}
+edit-on-github = Edite esta página no GitHub
+
+
+nav-about = Sobre
+nav-blog = Blog
+nav-community = Comunidade
+nav-install = Instalar
+nav-more-pages = Mais Páginas
+nav-usage = Uso
+
+divider-development = Desenvolvimento
+divider-external-links = External Links
+
+nav-page-developer-wiki = {-developer-wiki}
+nav-page-import-utility = {-import-utility}
+nav-page-maven-repo = Repositório Maven
+nav-page-help-wanted = {-help-wanted}
+nav-page-patch-notes = {-patch-notes}
+nav-page-sponsors = {-sponsors}
+nav-page-staff-resources = {-staff-resources}
+nav-page-template-mod = {-template-mod}
+nav-page-legal = Legal
+nav-page-donate = Doar
+
+button-close = Fechar
+button-discord = {-discord}
+button-discord-toolchain = Toolchain
+button-developer-wiki = {-developer-wiki}
+button-donate = Doar
+button-forum = {-forum}
+button-github = {-github}
+button-install = Instalar
+button-mastodon = {-mastodon}
+button-maven-repo = Repositório Maven
+button-more = Mais
+button-more-posts = Mais Posts
+button-help-wanted = {-help-wanted}
+button-official-site = Site Oficial
+button-patch-notes = Minecraft {-patch-notes}
+button-rss = RSS
+button-template-mod = {-template-mod}
+button-twitter = {-twitter}
+button-twitch = {-twitch}
+button-usage-docs = Documentação de Uso
+
+sidebar-pages = Páginas
+sidebar-resources = Recursos
+sidebar-teams = Times
+sidebar-versions = Versões
+
+paginator-button-first = Primeiro
+paginator-button-previous = Anterior
+paginator-button-next = Próximo
+paginator-button-last = Último
+
+tooltip-switch-language = Mudar Idioma
+tooltip-toggle-low-contrast = Ligar/Desligar Baixo Contraste
+
+prompt-error-noscript = Seu JavaScript está deshabilitado. Habilite-o para usar a pesquisa.
+prompt-search-language = Procure seu idioma aqui...
+
+page-404 = 404
+page-404-title = Página não encontrada :(
+page-404-subtitle = A Página solicitada não foi encontrada.
+page-404-image-title = Pineapple triste :(
